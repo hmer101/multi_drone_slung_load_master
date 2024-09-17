@@ -1,3 +1,12 @@
 [submodule "ws_ros2/src/multi_drone_slung_load"]
 	path = ws_ros2/src/multi_drone_slung_load
 	url = https://github.com/hmer101/multi_drone_slung_load.git
+[submodule "ws_ros2/src/slung_pose_measurement"]
+	path = ws_ros2/src/slung_pose_measurement
+	url = https://github.com/hmer101/slung_pose_measurement.git
+[submodule "ws_ros2/src/px4_msgs"]
+	path = ws_ros2/src/px4_msgs
+	url = https://github.com/hmer101/px4_msgs.git
+[submodule "ws_ros2/src/multi_drone_slung_load_interfaces"]
+	path = ws_ros2/src/multi_drone_slung_load_interfaces
+	url = https://github.com/hmer101/multi_drone_slung_load_interfaces.git
