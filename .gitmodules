@@ -1,0 +1,3 @@
+[submodule "ws_ros2/src/multi_drone_slung_load"]
+	path = ws_ros2/src/multi_drone_slung_load
+	url = https://github.com/hmer101/multi_drone_slung_load.git
