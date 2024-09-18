@@ -46,8 +46,7 @@ The following section describes how to build the real-world system capable of ou
 
 
 ### Building
-#### Bill of materials (BOM)
-**Multi-drone slung load system**
+**Multi-drone slung load system BOM**
 | **Item**                                                             | **Cost (\$)** | **Quantity** | **Total cost (\$)** |
 |----------------------------------------------------------------------|---------------|--------------|---------------------|
 | **Drones**                                                           |               |              |                     |
@@ -81,7 +80,7 @@ The following section describes how to build the real-world system capable of ou
 |                                                                      |               | **Total**    | **\$ 6486.19**      |
 ** Bill of materials with approximate costs for the full multi-drone slung load system as at August 2024. All $ are in USD. **
 
-**Testing apparatus**
+**Testing apparatus BOM**
 | **Item**                                                   | **Cost (\$)** | **Quantity** | **Total cost (\$)** |
 |-----------------------------------------------------------|---------------|--------------|---------------------|
 | 8020 aluminium t-slot profile extrusion: 30-3030          | 400.82        | 1            | 400.82              |
@@ -100,9 +99,7 @@ The following section describes how to build the real-world system capable of ou
 |                                                           |               | **Total**    | **\$ 1402.93**      |
 *Bill of materials with approximate costs for the drone testing apparatus as at August 2024. All $ are in USD.*
 
-
-
-## Custom CAD
+#### Custom CAD
 - Slung load: https://bit.ly/471B8il
 - Testing apparatus frame: https://bit.ly/3z2u6gN
 - On-drone camera mount: https://bit.ly/3T1c4SU
