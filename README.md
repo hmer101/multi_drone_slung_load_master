@@ -112,7 +112,7 @@ The following section describes how to build the real-world system capable of ou
 | Radiomaster TX16S II RC                                            | 209.99        | 3            | 629.97              |
 | TX16S battery $5000 \text{mAh}$ 2S $7.4 \text{V}$                | 24.99         | 3            | 74.97               |
 |                                                                      |               | **Total**    | **\$ 6486.19**      |
-** Bill of materials with approximate costs for the full multi-drone slung load system as at August 2024. All $ are in USD. **
+*Bill of materials with approximate costs for the full multi-drone slung load system as at August 2024. All $ are in USD.*
 
 **Testing apparatus BOM**
 | **Item**                                                   | **Cost (\$)** | **Quantity** | **Total cost (\$)** |
