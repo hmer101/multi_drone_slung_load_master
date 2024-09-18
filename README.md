@@ -1,6 +1,6 @@
 # Slung load carrying with a multi-drone system
 
-Code to acompany the ICRA 2025 submission "A Platform for Visual Pose Estimation in a Multi-Drone Slung Load System" - Harvey Merton and Ian W. Hunter.
+Code to acompany the ICRA 2025 submission "A Platform for Visual Pose Estimation in a Multi-Drone Slung Load System" - Harvey Merton and Ian W. Hunter. Data for this paper can be found in ws_ros2/src/slung_pose_measurement/data.
 
 ## Videos
 - Gazebo simulation: https://youtu.be/L-jx-SenBfA
