@@ -64,7 +64,7 @@ The following section describes how to build the real-world system capable of ou
 | Raspberry Pi (RPi) 5                                               | 80.00         | 4            | 320.00              |
 | RPi 5 fans                                                          | 5.00          | 4            | 20.00               |
 | MicroSD card $128\,\text{Gb}$ class 10 200/90\,mbs                 | 18.45         | 4            | 73.80               |
-| UBEC SMPS $5\,\text{V}$/$6\,\text{V}$, $5\,\text{A}$ continuous    | 7.99          | 4            | 31.96               |
+| UBEC SMPS $5\,\text{V}$ / $6\,\text{V}$, $5\,\text{A}$ continuous    | 7.99          | 4            | 31.96               |
 | 4-outlet, USB-powered Ethernet hub                                   | 31.99         | 1            | 31.99               |
 | Ethernet cables - cat 6 $10\,\text{Gbps}$ $1\,\text{ft}$ 5pk       | 9.99          | 1            | 9.99                |
 | Ethernet cables - cat 6 $10\,\text{Gbps}$ $14\,\text{ft}$          | 9.49          | 3            | 28.47               |
