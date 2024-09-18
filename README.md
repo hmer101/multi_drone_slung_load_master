@@ -47,9 +47,13 @@ The system can either be run in simulation or outdoors.
 
 ### Simulation
 1. Launch the simulated environment in a bash terminal with:
-  ``` ./ws_ros2/src/multi_drone_slung_load/tools/spawn_slung_sitl_gazebo.sh ```
-2. Open a new bash terminal and run:
-  ros2 launch multi_drone_slung_load sim.launch.py
+  ```
+./ws_ros2/src/multi_drone_slung_load/tools/spawn_slung_sitl_gazebo.sh
+```
+3. Open a new bash terminal and run:
+```
+ros2 launch multi_drone_slung_load sim.launch.py
+```
 
 ### Real world (outdoors)
 The following section describes how to build the real-world system capable of outdoor flight.
