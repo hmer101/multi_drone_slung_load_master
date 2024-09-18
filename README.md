@@ -60,6 +60,7 @@ The following section describes how to build the real-world system capable of ou
 | RJ45 Ethernet splitter 1 to 2 $100 \text{Mbps}$                   | 9.99          | 4            | 39.96               |
 | Intel RealSense D435                                                | 297.13        | 3            | 891.39              |
 | Realsense camera mounts - 3D printed                                 | 1.20          | 3            | 3.60                |
+|                                                                    |               |              |                      |
 | **Drones + load**                                                   |               |              |                     |
 | Raspberry Pi (RPi) 5                                               | 80.00         | 4            | 320.00              |
 | RPi 5 fans                                                          | 5.00          | 4            | 20.00               |
@@ -68,11 +69,13 @@ The following section describes how to build the real-world system capable of ou
 | 4-outlet, USB-powered Ethernet hub                                   | 31.99         | 1            | 31.99               |
 | Ethernet cables - cat 6 $10 \text{Gbps}$ $1 \text{ft}$ 5pk       | 9.99          | 1            | 9.99                |
 | Ethernet cables - cat 6 $10 \text{Gbps}$ $14 \text{ft}$          | 9.49          | 3            | 28.47               |
+|                                                                    |               |              |                      |
 | **Load**                                                            |               |              |                     |
 | Kevlar rope with nylon sheathe - $8 \text{m}$                     | 39.99         | 1            | 39.99               |
 | $2 \text{mm}$ Clear acrylic sheets - 2 pk                          | 31.99         | 1            | 31.99               |
 | 6-pack tri-glide plastic buckles (3/4" combo set)                  | 9.59          | 1            | 9.59                |
 | $100 \text{mm}$ bolts + nuts + washers + nylon spacers             | 125.39        | 1            | 125.39              |
+|                                                                    |               |              |                      |
 | **Auxiliary**                                                       |               |              |                     |
 | Holybro H-RTK F9P RTK GNSS - base                                   | 325.99        | 1            | 325.99              |
 | Radiomaster TX16S II RC                                            | 209.99        | 3            | 629.97              |
