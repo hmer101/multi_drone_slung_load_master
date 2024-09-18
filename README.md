@@ -28,11 +28,25 @@ pip install -r requirements.txt
 ```
 Note that colcon does not work with virtual environments so don't use one!
 
-5. Build the ros2 workspace by changing into the 'ws_ros2' directory and running:
+5. Make frame transforms .so. In the folder:
+
+```
+cd multi_drone_slung_load_master/ws_ros2/src/multi_drone_slung_load/multi_drone_slung_load/frame_transforms
+```
+make the frame_transforms object file:
+```
+mkdir -p build && \
+cd build && \
+cmake .. && \
+make && \
+cp frame_transforms.cpython-310-x86_64-linux-gnu.so ../../frame_transforms.so
+```
+
+6. Build the ros2 workspace by changing into the 'ws_ros2' directory and running:
   ```
   colcon build
 ```
-6. Source the ros workspace (can add this to the .bashrc file) with:
+7. Source the ros workspace (can add this to the .bashrc file) with:
 ```
   source /opt/ros/humble/setup.bash
   source ~/multi_drone_slung_load_master/ws_ros2/install/local_setup.bash 
