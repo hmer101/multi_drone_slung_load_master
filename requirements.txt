@@ -1,0 +1,123 @@
+#action-msgs==1.2.1
+#action-tutorials-interfaces==0.20.3
+#action-tutorials-py==0.20.3
+#actionlib-msgs==4.2.3
+aioconsole==0.5.1
+aiogrpc==1.8
+angles==1.15.0
+attrs==22.2.0
+builtin-interfaces==1.2.1
+catkin-pkg==0.5.2
+certifi==2022.12.7
+chardet==5.1.0
+charset-normalizer==2.1.1
+composition-interfaces==1.2.1
+contourpy==1.0.6
+coverage==6.5.0
+cv-bridge==3.2.1
+cycler==0.11.0
+#demo-nodes-py==0.20.3
+#diagnostic-msgs==4.2.3
+docopt==0.6.2
+docutils==0.19
+domain-coordinator==0.10.0
+empy==3.3.4
+fonttools==4.38.0
+future==0.18.2
+#geometry-msgs==4.2.3
+grpcio==1.51.1
+idna==3.4
+image-geometry==3.2.1
+importlib-resources==5.10.0
+Jinja2==3.1.2
+joblib==1.2.0
+jsonschema==4.17.0
+kconfiglib==14.1.0
+kiwisolver==1.4.4
+lark==1.1.5
+laser-geometry==2.4.0
+launch #==0.1.3 #1.0.4
+#launch-testing==0.1.3 #1.0.4
+#launch-xml==0.1.3 #1.0.4
+#launch-yaml==0.1.3 #1.0.4
+lifecycle-msgs==1.2.1
+llvmlite==0.39.1
+#logging-demo==0.20.3
+lxml==4.9.1
+MarkupSafe==2.1.1
+matplotlib==3.6.2
+mavsdk==1.4.1
+#message-filters==4.3.3
+mpmath==1.2.1
+#nav-msgs==4.2.3
+numba==0.56.4
+numpy==1.22.2
+numpy-quaternion==2022.4.3
+nunavut==1.9.0
+osrf-pycommon==2.0.2
+packaging #==21.3
+pandas==1.5.1
+pcl-msgs==1.0.0
+#pendulum-msgs==0.20.3
+Pillow==9.3.0
+pipreqs==0.4.11
+pkgconfig==1.5.5
+protobuf==4.21.12
+psutil==5.9.3
+pybind11==2.10.4
+pybullet==3.2.5
+pydsdl==1.16.1
+Pygments==2.14.0
+pymap3d==2.9.1
+pymavlink==2.4.37
+pyparsing==3.0.9
+pyros-genmsg==0.5.8
+pyrsistent==0.19.2
+pyserial==3.5
+python-dateutil==2.8.2
+pytz==2022.6
+pyulog==1.0.0
+PyYAML #==6.0
+#qt-dotgraph==2.2.2
+#qt-gui==2.2.2
+#qt-gui-cpp==2.2.2
+#qt-gui-py-common==2.2.2
+#quality-of-service-demo-py==0.20.3
+rcl-interfaces==1.2.1
+#rcutils==5.1.4
+requests==2.28.1
+#resource-retriever==3.1.1
+rmw-dds-common==1.6.0
+scikit-learn==1.1.2
+scipy==1.9.3
+sensor-msgs #==4.2.3
+sensor-msgs-py #==4.2.3
+shape-msgs #==4.2.3
+six==1.16.0
+#sros2==0.10.4
+#PyYAML==6.0
+#rcl-interfaces==1.2.1
+#requests==2.28.1
+#rmw-dds-common==1.6.0
+#scikit-learn==1.1.2
+#scipy==1.9.3
+#sensor-msgs==4.2.3
+#sensor-msgs-py==4.2.3
+setuptools==69.2.0
+#shape-msgs==4.2.3
+#six==1.16.0
+statistics-msgs==1.2.1
+std-msgs #==4.2.3
+std-srvs #==4.2.3
+stereo-msgs #==4.2.3
+threadpoolctl==3.1.0
+toml==0.10.2
+#topic-monitor #==0.20.3
+trajectory-msgs #==4.2.3
+#turtlesim==1.4.2
+unique-identifier-msgs==2.2.1
+urllib3==1.26.13
+vcstool==0.3.0
+visualization-msgs #==4.2.3
+xacro==1.13.3
+yarg==0.1.9

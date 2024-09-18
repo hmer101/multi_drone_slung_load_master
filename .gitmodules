@@ -10,3 +10,6 @@
 [submodule "ws_ros2/src/multi_drone_slung_load_interfaces"]
 	path = ws_ros2/src/multi_drone_slung_load_interfaces
 	url = https://github.com/hmer101/multi_drone_slung_load_interfaces.git
+[submodule "repos/PX4-Autopilot"]
+	path = repos/PX4-Autopilot
+	url = https://github.com/hmer101/PX4-Autopilot.git
