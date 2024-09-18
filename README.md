@@ -1,11 +1,11 @@
-# multi_drone_slung_load_master
+# Slung load carrying with a multi-drone system
 
-Code to acompany the ICRA 2025 submission "A Platform for Visual Pose Estimation in a Multi-Drone Slung Load System".
+Code to acompany the ICRA 2025 submission "A Platform for Visual Pose Estimation in a Multi-Drone Slung Load System" - Harvey Merton and Ian W. Hunter.
 
 ## Videos
 - Gazebo simulation: https://youtu.be/L-jx-SenBfA
 - Real world flight: https://youtu.be/4FRBUPgz-X4
-- Testing rig flight: https://bit.ly/3Xrp9rz
+- Flight in testing apparatus: https://bit.ly/3Xrp9rz
 
 ## Installation
 ### Prerequisites
@@ -31,19 +31,23 @@ A Docker container is coming soon.
 - Change configuration files in /ws_ros2/src/multi_drone_slung_load/config. Always rebuild and source before running.
 
 ## Running 
+The system can either be run in simulation or outdoors.
+
 ### Simulation
 1. Launch the simulated environment in a bash terminal with:
   ./ws_ros2/src/multi_drone_slung_load/tools/spawn_slung_sitl_gazebo.sh
 2. Open a new bash terminal and run:
   ros2 launch multi_drone_slung_load sim.launch.py
 
-## Real world (outdoors)
+### Real world (outdoors)
+The following section describes how to build the real-world system capable of outdoor flight.
+
 > Running aerial drone experiments outdoors is dangerous; there are many variables that could make previously functioning code malfunction. Always simulate and test on the testing rig described below before attempting unconstrained flight. Ensure you comply with local drone flying regulations. The authors make no guarntees that the provided code will function as expected, and are not liable for any accidents that occur as a result of running this code.
 
 
 ### Building
-## Bill of materials (BOM)
-** Multi-drone slung load system **
+#### Bill of materials (BOM)
+**Multi-drone slung load system**
 | **Item**                                                             | **Cost (\$)** | **Quantity** | **Total cost (\$)** |
 |----------------------------------------------------------------------|---------------|--------------|---------------------|
 | **Drones**                                                           |               |              |                     |
@@ -77,7 +81,7 @@ A Docker container is coming soon.
 |                                                                      |               | **Total**    | **\$ 6486.19**      |
 ** Bill of materials with approximate costs for the full multi-drone slung load system as at August 2024. All $ are in USD. **
 
-** Testing apparatus **
+**Testing apparatus**
 | **Item**                                                   | **Cost (\$)** | **Quantity** | **Total cost (\$)** |
 |-----------------------------------------------------------|---------------|--------------|---------------------|
 | 8020 aluminium t-slot profile extrusion: 30-3030          | 400.82        | 1            | 400.82              |
@@ -100,5 +104,5 @@ A Docker container is coming soon.
 
 ## Custom CAD
 - Slung load: https://bit.ly/471B8il
-- Testing rig: https://bit.ly/3z2u6gN
+- Testing apparatus frame: https://bit.ly/3z2u6gN
 - On-drone camera mount: https://bit.ly/3T1c4SU
