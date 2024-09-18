@@ -27,6 +27,7 @@ git clone https://github.com/hmer101/multi_drone_slung_load_master.git --recurse
 pip install -r requirements.txt
 ```
 Note that colcon does not work with virtual environments so don't use one!
+
 5. Build the ros2 workspace by changing into the 'ws_ros2' directory and running:
   ```
   colcon build
