@@ -14,16 +14,43 @@ Code to acompany the ICRA 2025 submission "A Platform for Visual Pose Estimation
 
 ### Installation instructions
 1. Install all prerequisites 
-2. Clone the repository and all submodules with:
-  https://github.com/hmer101/multi_drone_slung_load_master.git --recurse-submodules
-3. Build the PX4-Autopilot included as a submodule in this repository. For help with this, follow the instructions here: https://docs.px4.io/main/en/ros2/user_guide.html. If you properly cloned this repo using '--recurse-submodules', you will not need to clone the PX4-Autopilot repository again; simply use the one provided in this repo. You will however have to run the ubuntu.sh setup script and make the px4 firmware with 'make px4_sitl gz_x500' (for simulation) and 'make px4_fmu-v6x_default' for hardware. Note that the PX4-Autopilot repo in this repository is a fork of the original with some minor tweaks. As such, using the original PX4-Autopilot repo in place of this fork will not work.
+2. Clone the repository and all submodules to your home directory (~/) with:
+```
+git clone https://github.com/hmer101/multi_drone_slung_load_master.git --recurse-submodules
+```
+3. Build the PX4-Autopilot included as a submodule in this repository. For help with this, follow the instructions here: https://docs.px4.io/main/en/ros2/user_guide.html.
+   - If you properly cloned this repo using '--recurse-submodules', you will not need to clone the PX4-Autopilot repository again; simply use the one provided in this repo.
+   - You will have to run the ubuntu.sh setup script, install the MicroXRCEAgent, and make the px4 firmware with 'make px4_sitl gz_x500' (for simulation) and 'make px4_fmu-v6x_default' for hardware (all documented above).
+   - Note that the PX4-Autopilot repo in this repository is a fork of the original with some minor tweaks. As such, using the original PX4-Autopilot repo in place of this fork will not work.
 4. Install all python requirements with:
-  pip install -r requirements.txt
-5. Build the ros2 workspace by changing into the 'ws_ros2' directory and running:
+```
+pip install -r requirements.txt
+```
+Note that colcon does not work with virtual environments so don't use one!
+
+5. Make frame transforms .so. In the folder:
+
+```
+cd multi_drone_slung_load_master/ws_ros2/src/multi_drone_slung_load/multi_drone_slung_load/frame_transforms
+```
+make the frame_transforms object file:
+```
+mkdir -p build && \
+cd build && \
+cmake .. && \
+make && \
+cp frame_transforms.cpython-310-x86_64-linux-gnu.so ../../frame_transforms.so
+```
+
+6. Build the ros2 workspace by changing into the 'ws_ros2' directory and running:
+  ```
   colcon build
-6. Source the ros workspace (can add this to the .bashrc file) with:
+```
+7. Source the ros workspace (can add this to the .bashrc file) with:
+```
   source /opt/ros/humble/setup.bash
-  source ~/ws_ros2/install/local_setup.bash 
+  source ~/multi_drone_slung_load_master/ws_ros2/install/local_setup.bash 
+```
 
 A Docker container is coming soon. 
 
@@ -35,9 +62,13 @@ The system can either be run in simulation or outdoors.
 
 ### Simulation
 1. Launch the simulated environment in a bash terminal with:
-  ./ws_ros2/src/multi_drone_slung_load/tools/spawn_slung_sitl_gazebo.sh
+  ```
+./ws_ros2/src/multi_drone_slung_load/tools/spawn_slung_sitl_gazebo.sh
+```
 2. Open a new bash terminal and run:
-  ros2 launch multi_drone_slung_load sim.launch.py
+```
+ros2 launch multi_drone_slung_load sim.launch.py
+```
 
 ### Real world (outdoors)
 The following section describes how to build the real-world system capable of outdoor flight.
