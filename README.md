@@ -2,6 +2,10 @@
 
 Code to acompany the ICRA 2025 submission "A Platform for Visual Pose Estimation in a Multi-Drone Slung Load System" - Harvey Merton and Ian W. Hunter. Data for this paper can be found in ws_ros2/src/slung_pose_measurement/data.
 
+![Platform](https://github.com/hmer101/multi_drone_slung_load_master/gif_platform_sim_vs_real.gif)
+
+![Vision](https://github.com/hmer101/multi_drone_slung_load_master/gif_visual_pose_filter.gif)
+
 ## Videos
 - ICRA 2025 accompanying overview video: https://youtu.be/sau39pGFgZc
 - Gazebo simulation: https://youtu.be/L-jx-SenBfA
